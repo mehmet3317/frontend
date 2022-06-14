@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+body{
+    background-color: aqua;
+    margin: 0;
+    padding: 20px;
+}
+#titel{
+    text-align: center;
+    color: brown;
+    font-family: 'Source Code Pro', monospace;
+
+}
+footer{
+    background-color: brown;
+    position: fixed;
+    width: 100%;
+    bottom:0;
+    
+}
+footer>h5{
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color:white;
+}
+#nav{
+    /* list-style-type: square; */
+    font-size: 30px;
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    justify-content: flex-end;
+}
+/* #nav>li::marker{ 
+    font-size: 30px;
+    color:blue;
+    content:"";
+} */
+#nav>li{
+    margin-right: 20px;
+    font-weight: 900;
+    padding: 20px 0;
+}
+#nav>li>a{
+    margin-right: 20px;
+    color:black;
+}
+#nav>li>a:hover{
+    color: blue;
+    text-shadow: 0 0px 10px black, 0 0 brown;
+}
+.navbar{
+    background-color: rgb(104, 103, 155);
+}
+.sidebar{
+    border:3px dotted rgb(2, 3, 3);
+    width: 10%;
+}
+.sidebar>ol{
+    list-style-type:lower-greek;
+    font-size:25px;
+}
+.sidebar>ol>li::marker{
+    color: brown;
+}
+.container{
+    margin: 10px;
+    display: flex;
+}
+.blog{
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+.flexbox{
+    position: relative;
+    margin: 0 auto;
+    left: 80px;
+    width: 80%;
+    border: 3px solid blue;
+}
+.flexbox div{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+#box1{
+    background-color: red;
+    transform: matrix(0.5,4,2 1,2,2);
+}
+#box2{
+    background-color: blue;
+    transform: translate(140px);
+
+    position:absolute;
+    top: 20px;
+    top: 0;
+}
+#box3{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    transform: skew(20deg);
+}
+#box4{
+    background-color: rgb(193, 226, 128);
+    position: absolute;
+    top: 0;
+    left: 20px;
+    transform: scale(0.2%);
+    /* z-index: 1; */
+}
+#box5{
+    background-color: rgb(29, 155, 79);
+    position: absolute;
+    top: 0;
+    left: 10px;
+    transform: rotate(45deg);
+}
