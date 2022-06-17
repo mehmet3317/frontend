@@ -1,0 +1,71 @@
+#nav{
+    /* list-style-type: square; */
+    font-size: 30px;
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    justify-content: flex-end;
+    background: #3399ff;
+}
+#titel{
+   
+    color: brown;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+#nav>li{
+    /* margin-right: 20px; */
+    font-weight: 900;
+    /* padding: 20px 0; */
+}
+#nav>li>a{
+    margin-right: 20px;
+    color:black;
+}
+
+
+ol {
+    background: #3399ff;
+    padding: 20px;
+}
+
+ol li {
+    text-align: center;
+    background: #cce5ff;
+    color: darkblue;
+    margin: 50px;
+    margin-bottom: 40px;
+    width:100%;
+
+} 
+.sidebar{
+
+     display: flex;
+    
+}
+#nav2>{
+    width: 60px;
+}
+
+#nav2>li{
+    margin-bottom: 20px;
+    color:black;
+}
+.navbar a.split {
+    float: left;
+    color: white;
+    background-color: #04AA6D;
+
+  }
+.table1{
+    margin-right: 40px;
+    width: 60px;
+}
+/* .navbar nav{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+} */
