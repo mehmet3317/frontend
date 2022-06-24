@@ -93,6 +93,17 @@ var studenten = [
 let geslaagd = studenten.filter(diploma)
 
 
+geslaagd.map((student) => {
+    document.querySelector("#table>body").innerHTML += <tr>
+        <td style="margin:20px; padding:20px; border:2px; solid:black;">${student.id}</td>
+        <td style="margin:20px; padding:20px; border:2px; solid:black;">${student.naam}</td>
+        <td style="margin:20px; padding:20px; border:2px; solid:black;">${student.cursus}</td>
+        <td style="margin:20px; padding:20px; border:2px; solid:black;">${student.punten}</td>
+    </tr>
+})
+
+
+
 function diploma(punt) {
     return punt.punten >= 50;
 }
