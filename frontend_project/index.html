@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Opdracht</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="https://img.icons8.com/bubbles/344/duolingo-logo.png" alt="logo">
+                <h1>JavaFront</h1>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Project</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html"> Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="form1">
+        <form action="/action_page.php">
+            <label for="fname"></label>
+            <input type="text" id="fname" name="firstname" placeholder="Naam">
+
+            <input type="submit" value="Submit">
+
+            <br>
+            <br>
+            <label for="lname"></label>
+            <input type="text" id="lname" name="lastname" placeholder="Zoek blog titel">
+
+
+
+        </form>
+    </div>
+
+    <div class="adjust">
+        <div class='parent'>
+            <ul id="myDIV">
+                <li onclick="tonen(this)">
+                    <h3>Eerste blog item</h3>
+                    <p id="testTekst">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque et dignissimos,
+                        placeat
+                        quis
+                        praesentium, minima expedita quas nam aspernatur aliquid corporis modi assumenda quo enim,
+                        molestiae earum? Labore, perspiciatis placeat!</p>
+                </li>
+                <li onclick="tonen(this)">
+                    <h3>Tweede blog item</h3>
+                    <p id="testTekst">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque et dignissimos,
+                        placeat
+                        quis
+                        praesentium, minima expedita quas nam aspernatur aliquid corporis modi assumenda quo enim,
+                        molestiae earum? Labore, perspiciatis placeat!</p>
+                </li>
+                <li onclick="tonen(this)">
+                    <h3>Derde blog item</h3>
+                    <p id="testTekst">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque et dignissimos,
+                        placeat
+                        quis
+                        praesentium, minima expedita quas nam aspernatur aliquid corporis modi assumenda quo enim,
+                        molestiae earum? Labore, perspiciatis placeat!</p>
+                </li>
+                <li onclick="tonen(this)">
+                    <h3>Vierde blog item</h3>
+                    <p id="testTekst">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque et dignissimos,
+                        placeat
+                        quis
+                        praesentium, minima expedita quas nam aspernatur aliquid corporis modi assumenda quo enim,
+                        molestiae earum? Labore, perspiciatis placeat!</p>
+                </li>
+                <li onclick="tonen(this)">
+                    <h3 href="#">Vijfde blog item</h3>
+                    <p id="testTekst">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque et dignissimos,
+                        placeat
+                        quis
+                        praesentium, minima expedita quas nam aspernatur aliquid corporis modi assumenda quo enim,
+                        molestiae earum? Labore, perspiciatis placeat!</p>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class='child'>
+            <img src="https://s3.amazonaws.com/www-inside-design/uploads/2019/02/designdevunicorn.jpg
+                " style="height: 480px;">
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
