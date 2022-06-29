@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blad steen schaar</title>
+</head>
+<body>
+    <h1>BLAD STEEN SCHAAR</h1>
+    <form>
+        <label for="spel"> Kies blas, steen of schaar: </label>
+        <select name="spel" id="spel">
+            <option value="blad">BLAD</option>
+            <option value="steen">STEEN</option>
+            <option value="schaar">SCHAAR</option>
+        </select>
+    </form>
+    <h3 id="eigenKeuze"></h3>
+    <h3 id="pckeuze"> keuze van de computer:</h3>
+    <button onclick="uitslag()"> Kijk wie de winnaar is</button>
+    <h3 id="winnaar">Winnaar:</h3>
+
+    <script src="app.js"></script>
+</body>
+</html>

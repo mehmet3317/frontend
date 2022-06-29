@@ -82,21 +82,32 @@ ul>li>p {
     margin-right: 20px;
 
 }
-h2{
+
+h2 {
     text-align: center;
 }
-table, th, td {
+
+table,
+th,
+td {
     border: 1px solid black;
 }
+
 .center {
     margin-left: auto;
     margin-right: auto;
     width: 400px;
     height: 400px;
     text-align: center;
+}
 
-  }
+.center tr:first-child td {
+    background-color: greenyellow;
+}
 
- .center tr:first-child td {
-   background-color: greenyellow;
+.gg-mail {
+    display: inline-block;
+}
+.icon{
+    text-align: center;
 }
