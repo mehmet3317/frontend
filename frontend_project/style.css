@@ -72,9 +72,11 @@ ul>li>p {
 
 .parent {
     flex: 1;
-    border: 2px solid yellow;
-    width: 100px;
+    border: 2px solid green;
+    border-style: dashed;
 
+    width: 100px;
+   
 }
 
 .child {
@@ -108,6 +110,95 @@ td {
 .gg-mail {
     display: inline-block;
 }
-.icon{
+
+.icon {
     text-align: center;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+#layout:hover {
+    border-radius: 30%;
+    background: #EC4138;
+    border: 2px solid #F05749;
+    border-right: 2px solid #E02A21;
+    border-bottom: 2px solid #E02A21;
+}
+footer{
+/* position: sticky; */
+bottom: 0;
+width: 100%;
+background-color: var(--kleurExtra); ;
+display: flex;
+justify-content: space-evenly;
+color:rgb(102, 2, 102) ;
+}
+footer ul{
+width: 20%;
+list-style-type: none;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+footer h5{
+width: 40%;
+text-align: end;
+}
+
+.parent ul>li{
+    border: 1px solid green;
+    margin-bottom: 5%;
+    margin-right:5%;
+    border-width: 0.3ch;
 }

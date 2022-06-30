@@ -30,3 +30,18 @@ function welkom() {
     // }
     
 } 
+function show_list() {
+    var courses = document.getElementById("myDropdown");
+
+    if (courses.style.display == "block") {
+        courses.style.display = "none";
+    } else {
+        courses.style.display = "block";
+    }
+}
+// window.onclick = function (event) {
+//     if (!event.target.matches('.dropdown_button')) {
+//         document.getElementById('myDropdown')
+//             .style.display = "none";
+//     }
+// }   
